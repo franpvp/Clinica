@@ -1,0 +1,68 @@
+
+
+Para la creación de la aplicación web deberán tener en cuenta lo siguiente: 
+
+    a.	Considerar un caso que sea de su interés y que sea aprobado por todos los integrantes del equipo.  Pueden guiarse por páginas ya desarrolladas, 
+        alguna idea de desarrollo que tengan en mente, o basarse en un emprendimiento familiar o de algún conocido. Lo importante es que se sientan a 
+        gusto con la temática y se apropien de la construcción de su aplicación web dado que estarán trabajando sobre ello durante toda la asignatura.  
+
+    b.	Para delimitar su aplicación y el alcance de esta, es necesario que el caso que seleccionen como equipo cumpla con las siguientes características generales: 
+
+    •	Los casos de cada equipo pueden ser similares más no iguales, por tanto, se recomienda durante la primera semana crear su equipo, seleccionar su tema de 
+        desarrollo y subir esta información al AVA con una breve explicación de lo que se desea armar. Esto con el fin que el Docente pueda ayudarlos a concretar y 
+        delimitar su desarrollo, así como aportar sugerencias.
+
+    •	La aplicación web debe contar con al menos 2 roles o tipos de usuarios que posean privilegios diferentes y que sean manipulados por la aplicación. 
+        Es importante destacar que pueden tener más roles si desean y aclarar que pueden existir varios usuarios de la aplicación con el mismo rol o tipo de usuario asignado. 
+
+    •	Para el diseño de la aplicación web como equipo deberán elegir los colores, logos, nombre e imágenes a implementar en su desarrollo. 
+        Pueden guiarse de páginas ya existentes, pero sin dejar de lado su originalidad. También pueden usar cualquier herramienta de diseño de imágenes como Photoshop, gimp, 
+        illustrator o que estén en la web. 
+
+    •	Todas deben contar con las siguientes páginas:  
+
+            - Inicio de sesión. 
+            - Registro de usuarios. 
+            - Recuperar contraseña. 
+            - Modificación de perfil. 
+
+    •	Adicionalmente, deberán generar páginas internas para dar respuesta a las funcionalidades del sistema dependiendo del tema elegido (se dan más detalles en el apartado de temáticas).
+
+    •	En cuanto a las contraseñas, se deberán proporcionar al menos 4 validaciones de seguridad de estas para protección tales como longitud mínima, uso de caracteres especiales, 
+        uso de números y letras, longitud máxima o alguna otra que considere esencial. 
+
+    •	En cuanto a los formularios, todos deben tener sus validaciones correspondientes para cada campo, puede guiarse de cualquier aplicación donde se haya registrado para usar 
+        las validaciones necesarias. 
+
+    •	La base de datos que manejará la aplicación web debe manipular un mínimo de 6 tablas y recuerde que usará Oracle como manejador.
+
+    •	Su aplicación debe consumir al menos un web service externo y tener como mínimo una API Rest propia. 
+
+    •	No se debe implementar sistemas de pagos como webPay u otros, si el sistema lo requiere simular un pago del cliente con páginas que solo reflejen que el pago del monto asociado 
+        se ha realizado con éxito. 
+    
+    5.	Existen muchas temáticas que se pueden elegir, pero cada una de ellas puede presentar desarrollos de páginas de funcionalidades variadas. 
+        En este apartado exploraremos algunas de ellas con el fin de que puedan dilucidar que consideraciones adicionales se deben implementar 
+        además de las mencionadas en el punto 4. Algunas temáticas que considerar: 
+
+        a.	Si se elige una temática de ventas o arriendos debe considerar construir: carrito de compras, registro y modificación de productos, manejo del inventario, 
+            visualización o monitoreo de compras asociadas al usuario que inició sesión. Se deben crear mantenedores para la información relativa al cliente, usuarios y productos. 
+            Hay que recordar que esta temática abarca venda de ropa, electrodomésticos, equipos electrónicos, elementos para mascotas, entre otros y que, si algún equipo quiere 
+            realizar una venta para productos de mascotas, es válido que otro equipo realice una de ventas de equipos de computación.
+
+        b.	Si se elige temática de foros debe considerar construir: diversas secciones del foro, que el usuario pueda comentar los temas del foro y se permita identificar quien lo realizó, 
+            valoraciones para los temas por parte de los usuarios (que también puedan modificar o eliminar su valoración), monitoreo de temas generados por el usuario o temas agregados a favoritos. 
+            Se debe crear mantenedores para el baneo de comentarios o de temas, usuarios, y secciones del foro. Hay que recordar que, si un equipo selecciona un foro de videojuegos, es válido que 
+            otro equipo pueda seleccionar un foro sobre películas. 
+
+        c.	Si elige temáticas para servicio debe considerar construir: manejar generación, modificación o eliminación de ordenes de servicio, 
+            monitoreo de los equipos en reparación o servicio contratados por parte de los empleados y del cliente, ruta de procesos internas para 
+            entregar o procesar el servicio. Se debe generar mantenedores para usuarios, servicios incluidos, montos y tipos de servicios. 
+            Hay que recordar que, si un equipo selecciona un servicio técnico de reparación de equipos, otro equipo puede seleccionar ofrecer servicios relacionados a mantención de autos.
+
+        d.	Si se eligen temáticas para consultas médicas o reservas de horas debe considerar construir: mantenedor para especialistas, usuarios, 
+            clientes o pacientes, poder reservar, modificar o eliminar horas o poder realizar atenciones médicas en el caso de un hospital, cobros de dichos servicios, 
+            manipulación de historial médico para que se puedan visualizar las reservas o atenciones realizadas en el caso del médico o recibidas en el caso del paciente. 
+            En este caso solo pueden elegirse reservas de horas para eventos o historial médico para hospitales, clínicas o instituciones de salud.
+
+        e.	En el caso que su temática no se ajuste a ninguna de las mencionadas, aclarar este elemento en la sección en AVA donde describirán sus temas.

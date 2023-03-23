@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* CSS registro */
+.titulo-reg {
+    font-size: 30px;
+    color: #fd7e14;
+    font-weight: bold;
+}
+
+.formulario-reg {
+    position: absolute;
+    top: 15%;
+    border: 1px solid ;
+    border-radius: 20px;
+    background: white;
+    padding: 25px;
+    margin: 10px;
+}
+
+.contenedor-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    width: 100%;
+    margin-top: 10px;
+}
