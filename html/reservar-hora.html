@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- Barra nav -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/html/index.html">
           <div class="logo">
@@ -67,46 +67,54 @@
       </div>
     </nav>
     <!-- Formulario Reserva de Hora Médica -->
-    <div class="row">
-      <div class="col-md-12 contenedor-form">
-        <form id="formulario" class="formulario-reg">
-            <!-- Titulo de Formulario -->
-            <legend class="titulo-reg text-center mb-2">Iniciar Sesión</legend>
-            <div class="row g-3 mb-3">
-            <!-- Input Rut Paciente -->
-              <div class="col">
-                  <div id="formFloating3" class="form-floating">
-                    <input id="email" onblur="valRut()" type="email" class="form-control" placeholder="name@example.com" required>
-                    <label for="floatingInput">Ingrese rut  </label>
-                  </div>
-                  <div id="rutInv" class="invalid-feedback"></div>
+    <div class="container text-center contenedor-form">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-6">
+          <form id="formulario">
+              <!-- Titulo de Formulario -->
+              <legend class="titulo-reg text-center mb-2">Reservar Hora</legend>
+              <div class="row g-3 mb-3">
+              <!-- Input Rut Paciente -->
+                <div class="col">
+                    <div id="formFloating3" class="form-floating">
+                      <input id="email" onblur="valRut()" type="email" class="form-control" placeholder="name@example.com" required>
+                      <label for="floatingInput">Ingrese rut</label>
+                    </div>
+                    <div id="rutInv" class="invalid-feedback"></div>
+                </div>
               </div>
-            </div>
-            <!-- Input Previsión de Salud -->
+              <!-- Input Previsión de Salud -->
               <div class="col">
-                  <div id="formFloating5" class="form-floating">
-                    <select class="form-select" aria-label="Default select example">
-                      <option value="1">Fondo Nacional de Salud(Fonasa)</option>
-                      <option value="2">Isalud Isapre De Codelco</option>
-                      <option value="3">Isapre Banmédica</option>
-                      <option value="4">Isapre Colmena</option>
-                      <option value="5">Isapre Consalud</option>
-                      <option value="6">Isapre Cruz Blanca</option>
-                      <option value="7">Isapre Cruz Del Norte</option>
-                      <option value="8">Isapre Fundación Banco Estado</option>
-                      <option value="9">Isapre Nueva Másvida</option>
-                      <option value="10">Isapre Vida Tres</option>
-                      <option value="11">Particular</option>
-                    </select>
-                  </div>
-                  <div id="passInvalid" class="invalid-feedback"></div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01">Previsión</label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option value="1">Fondo Nacional de Salud(Fonasa)</option>
+                    <option value="2">Isalud Isapre De Codelco</option>
+                    <option value="3">Isapre Banmédica</option>
+                    <option value="4">Isapre Colmena</option>
+                    <option value="5">Isapre Consalud</option>
+                    <option value="6">Isapre Cruz Blanca</option>
+                    <option value="7">Isapre Cruz Del Norte</option>
+                    <option value="8">Isapre Fundación Banco Estado</option>
+                    <option value="9">Isapre Nueva Másvida</option>
+                    <option value="10">Isapre Vida Tres</option>
+                    <option value="11">Particular</option>
+                  </select>
+                </div>
+                <div id="passInvalid" class="invalid-feedback"></div>
               </div>
-            <!-- Boton Confirmar -->
-            <div class="contenedor-boton">
-              <a id="btn-enviar" type="submit" class="btn btn-primary link">Confirmar</a>
-            </div>
-        </form>
+              <!-- Boton Confirmar -->
+              <div class="contenedor-boton">
+                <a id="btn-enviar" type="submit" class="btn btn-primary link">Confirmar</a>
+              </div>
+          </form>
+        </div>
+        <div class="col"></div>
       </div>
     </div>
+
+
+
 </body>
 </html>

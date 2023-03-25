@@ -112,7 +112,6 @@
     font-family: MyFont;
 }
 
-
 #texto-img:hover {
     background: blue;
     opacity: 0.5;
@@ -132,15 +131,16 @@ a {
     text-decoration: none !important;
 }
 /* Slide */
-.carousel-item {
-    height: 800px;
-    opacity: 0.9;
+
+.texto-slide {
+    color: white;
+    font-size: 20px;
 
 }
 
-.texto-slide {
-    color: #5D51FA;
-
+.slide {
+    background: #0d6efd;
+    opacity: .9;
 }
 /* CSS registro */
 .titulo-reg {
@@ -179,3 +179,35 @@ a {
     width: 100%;
     margin-top: 10px;
 }
+
+.contenedor-esp {
+    width: 100%;
+    height: 700px;
+
+}
+/* Sección Contacto */
+.contacto {
+    background: #0d6efd;
+    width: 100%;
+}
+
+
+.box-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 30px;
+    width: 100px;
+    height: 250px;
+    background: white;
+    border-radius: 10%;
+}
+
+.titulo-esp {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    width: 100%;
+    background: #0d6efd;
+}
+
