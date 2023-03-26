@@ -129,6 +129,7 @@ const valPass = () => {
 }
 
 //Input Repetir Contraseña
+
 const repContraseña = document.querySelector('#repContraseña');
 const msgErrorRepPass = document.querySelector('#repPassInvalid'); 
 const divFormFloating6 = document.querySelector('#formFloating6');
