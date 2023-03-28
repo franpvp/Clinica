@@ -85,6 +85,7 @@
                   </div>
                   <!-- Mensaje de Error -->
                   <div id="nombreInvalido" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               <!-- Apellidos -->
               <div class="col">
@@ -94,6 +95,7 @@
                   </div>
                   <!-- Mensaje de Error -->
                   <div id="apellidoInvalido" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               </div>
               <div class="row g-3 mb-3">
@@ -104,6 +106,7 @@
                   <label for="floatingInput" >Correo Electrónico</label>
                   </div>
                   <div id="emailInvalido" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               <!-- Input nombre de usuario -->
               <div class="col">
@@ -112,6 +115,7 @@
                   <label for="floatingInputGroup2">Nombre de Usuario</label>
                   </div>
                   <div id="usuarioInvalido" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               </div>
               <!-- Input Contraseña 1 -->
@@ -123,6 +127,7 @@
                   <label for="floatingPassword">Contraseña</label>
                   </div>
                   <div id="passInvalid1" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               <!-- Input Contraseña 2 -->
               <div class="col">
@@ -132,6 +137,7 @@
                   <label for="floatingPassword">Repetir Contraseña</label>
                   </div>
                   <div id="passInvalid2" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               </div>
               <div class="row g-3 mb-3">
@@ -142,6 +148,7 @@
                   <label for="floatingInput">Dirección de Cliente</label>
                   </div>
                   <div id="errorDireccion" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               <div class="col">
                   <!-- Fecha de Nacimiento -->
@@ -149,12 +156,13 @@
                   <input id="fechaNacimiento" onblur="valFecha()" class="form-control" type="date" placeholder="dd-mm-yyyy" min="1970-01-01" max="2023-03-31" required>
                   <label for="floatingInput">Fecha de Nacimiento</label>
                   <div id="fechaInvalida" class="invalid-feedback"></div>
+                  <div class="error"></div>
                   </div>
               </div>
               </div>
               <!-- Boton Confirmar -->
               <div class="contenedor-boton">
-                <a id="btn-enviar" type="submit" class="btn btn-primary link">Enviar</a>
+                <a id="submit" type="submit" class="btn btn-primary link">Enviar</a>
               </div>
               <div onclick="limpiarFormulario()" class="contenedor-boton" type="reset">
                 <a class="btn btn-primary link">Limpiar</a>
