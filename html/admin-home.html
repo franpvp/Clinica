@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Js Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Barra Nav Admin-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/html/index.html">
+                <div class="logo">
+                </div>     
+            </a>
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            </ul>
+            <form class="d-flex">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-outline-info" href="/html/index.html" role="button">Ver Sitio Web</a>
+                <a class="btn btn-outline-warning" href="/html/rec-contraseña.html" role="button">Cambiar Contraseña</a>
+                <a class="btn btn-outline-primary" href="/html/admin-login.html" role="button">Cerrar Sesión</a>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      UserName@admin.cl
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><button class="dropdown-item" type="button">Action</button></li>
+                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+    </nav>
+      
+    <!-- Titulo Home Administrador -->
+    <div class="container-fluid"></div>
+    <div class="row">
+        <div class="col titulo-admin text-center">Administración</div>
+    </div>
+    
+    <!-- Contenido Admin-->
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7 seccion-principal">
+                <!-- Titulo sección Principal -->
+                <div class="row">
+                    <div class="col titulo-seccion-principal text-center">
+                        Gestión Usuarios
+                    </div>
+                </div>
+                <!-- Cuerpo sección Principal -->
+                <div class="row">
+                    <div class="col-7 contenido-seccion-principal mb-3 mt-3">
+                        Usuarios
+                    </div>
+                    <div class="col mb-3 mt-3">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a class="btn btn-outline-warning" href="/html/registro.html" role="button">Agregar</a>
+                            <a class="btn btn-outline-primary" href="/html/iniciar-sesion.html" role="button">Modificar</a>
+                            <a class="btn btn-outline-danger" href="/html/iniciar-sesion.html" role="button">Eliminar</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <!-- Titulo sección Principal Parte 2 -->
+                <div class="row">
+                    <div class="col titulo-seccion-principal text-center">
+                        Gestión Médicos
+                    </div>
+                </div>
+                <!-- Cuerpo sección Principal Parte 2-->
+                <div class="row">
+                    <div class="col-7 contenido-seccion-principal mb-3 mt-3">
+                        Médicos
+                    </div>
+                    <div class="col mb-3 mt-3">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a class="btn btn-outline-warning" href="/html/registro.html" role="button">Agregar</a>
+                            <a class="btn btn-outline-primary" href="/html/iniciar-sesion.html" role="button">Modificar</a>
+                            <a class="btn btn-outline-danger" href="/html/iniciar-sesion.html" role="button">Eliminar</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-7 contenido-seccion-principal mb-3 mt-3">
+                        Enfermera(o)
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a class="btn btn-outline-warning" href="/html/registro.html" role="button">Agregar</a>
+                            <a class="btn btn-outline-primary" href="/html/iniciar-sesion.html" role="button">Modificar</a>
+                            <a class="btn btn-outline-danger" href="/html/iniciar-sesion.html" role="button">Eliminar</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <!-- Titulo sección Principal Parte 3 -->
+                <div class="row">
+                    <div class="col titulo-seccion-principal text-center">
+                        Gestión Horas Médicas
+                    </div>
+                </div>
+                <!-- Cuerpo sección Principal Parte 3 -->
+                <div class="row">
+                    <div class="col-7 contenido-seccion-principal mb-3 mt-3">
+                        Horas Médicas
+                    </div>
+                    <div class="col mb-3 mt-3">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a class="btn btn-outline-warning" href="/html/registro.html" role="button">Agregar</a>
+                            <a class="btn btn-outline-primary" href="/html/iniciar-sesion.html" role="button">Modificar</a>
+                            <a class="btn btn-outline-danger" href="/html/iniciar-sesion.html" role="button">Eliminar</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <!-- Sección Secundaria -->
+            <div class="col"></div>
+            <div class="col-3 seccion-secundaria">
+                <div class="row">
+                    <div class="col titulo-seccion-secundaria">
+                        Acciones Recientes
+                    </div>
+                    <div class="contenido-seccion-secundaria">
+                        <div class="p-4 text-center">
+                            <a class="btn btn-outline-primary" href="#">Mis Acciones</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <script src="/main.js/valid.js"></script>
+</body>
+</html>

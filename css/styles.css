@@ -107,6 +107,10 @@
     object-fit: cover;
 }
 
+.logo-admin {
+
+}
+
 .texto-logo {
     display: flex;
     font-family: MyFont;
@@ -161,7 +165,7 @@ a {
 
 
 .contenedor-form{
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 .form-check {
@@ -212,3 +216,63 @@ a {
     background: #0d6efd;
 }
 
+/* Admin estilos */
+.titulo-admin {
+    padding: 15px;
+    font-size: 30px;
+    background-color: #0d6efd;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.seccion-principal {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.titulo-seccion-principal {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    background: #0d6efd;
+    color: white;
+}
+
+.contenido-seccion-principal {
+    display: flex;
+    width: 100%;
+    color: #0d6efd;
+    font-size: 17px;
+    align-items: center;
+    font-weight: bold;
+}
+.seccion-secundaria {
+    width: 100%;
+    height: 500px;
+}
+
+.titulo-seccion-secundaria {
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    background: orange;
+    opacity: 0.9;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.contenido-seccion-secundaria {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    background: #f2f2f2;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
