@@ -260,6 +260,41 @@ const limpiarFormulario = () => {
 
 /* Input de Enviar Formulario */
 
-const enviarForm = () => {
+let id = (id) => document.getElementById(id);
+
+let classes = (classes) => document.getElementsByClassName(classes);
+
+let nombre = id("nombres"),
+    apellido = id("apellidos"),
+    correo = id("email"),
+    user = id("nombreUsuario"),
+    password1 = id("constraseña1"),
+    password2 = id("contraseña2"),
+    adress = id("direccion"),
+    date = id("fechaNacimiento"),
+    form = id("formulario"),
+    errorMsg = classes("error");
+
+form.addEventListener("click", (e) => {
+    e.preventDefault();
     
+    control(nombre, 0, "El nombre no puede estar en blanco");
+    control(apellido, 1, "El apellido no puede estar en blanco");
+    control(correo, 2, "El correo no puede estar en blanco");
+    control(user, 3, "El usuario no puede estar en blanco");
+    control(passWord1, 4, "La contraseña no puede estar vacía");
+    control(passWord2, 5, "La contraseña no puede estar vacía");
+    control(adress, 6, "La direccion no puede estar vacía");
+    control(date, 7, "La fecha de nacimiento no puede estar vacía");
+    
+});
+
+
+let control = (id, serie, msg) => {
+    if(id.value.trim() === ""){
+        errorMsg[serie].innerHTML = msg;
+    } 
+    else {
+        errorMsg[serie].innerHTML = "";
+    }
 }

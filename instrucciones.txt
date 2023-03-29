@@ -34,9 +34,9 @@ Para la creación de la aplicación web deberán tener en cuenta lo siguiente:
     •	En cuanto a los formularios, todos deben tener sus validaciones correspondientes para cada campo, puede guiarse de cualquier aplicación donde se haya registrado para usar 
         las validaciones necesarias. 
 
-    •	La base de datos que manejará la aplicación web debe manipular un mínimo de 6 tablas y recuerde que usará Oracle como manejador.
+    •X	La base de datos que manejará la aplicación web debe manipular un mínimo de 6 tablas y recuerde que usará Oracle como manejador.
 
-    •	Su aplicación debe consumir al menos un web service externo y tener como mínimo una API Rest propia. 
+    •X	Su aplicación debe consumir al menos un web service externo y tener como mínimo una API Rest propia. 
 
     •	No se debe implementar sistemas de pagos como webPay u otros, si el sistema lo requiere simular un pago del cliente con páginas que solo reflejen que el pago del monto asociado 
         se ha realizado con éxito. 
