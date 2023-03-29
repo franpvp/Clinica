@@ -107,6 +107,10 @@
     object-fit: cover;
 }
 
+.logo-admin {
+
+}
+
 .texto-logo {
     display: flex;
     font-family: MyFont;
@@ -161,7 +165,7 @@ a {
 
 
 .contenedor-form{
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 .form-check {
