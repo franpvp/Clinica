@@ -107,10 +107,6 @@
     object-fit: cover;
 }
 
-.logo-admin {
-
-}
-
 .texto-logo {
     display: flex;
     font-family: MyFont;
@@ -273,6 +269,20 @@ a {
     justify-content: center;
     background: #f2f2f2;
     color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-body {
+    background: #0d6efd;
+}
+
+.card-img-top {
+    padding: 5px;
+}
+
+.card-text {
+    color: white;
     font-size: 15px;
     font-weight: bold;
 }
