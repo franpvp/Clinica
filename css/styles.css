@@ -99,7 +99,7 @@
 
 .logo{
     display: flex;
-    background-image: url(/img/fondo-clinica.png);
+    background-image: url(/img/Fondos/fondo-clinica.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100px;
@@ -135,7 +135,7 @@ a {
 .texto-slide {
     color: white;
     font-size: 20px;
-
+    background: #0d6efd;
 }
 
 .slide {
@@ -159,7 +159,6 @@ a {
     width: 50%;
 }
 
-
 .contenedor-form{
     margin-top: 5%;
 
@@ -174,6 +173,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .link {
@@ -188,7 +188,7 @@ a {
 }
 /* Sección Contacto */
 .contacto {
-    background: #0d6efd;
+    background: #00335B;
     width: 100%;
 }
 
@@ -199,8 +199,7 @@ a {
     justify-content: center;    
     margin: 30px;
     width: 100px;
-    height: 250px;
-    background: white;
+    color: white;
     border-radius: 10%;
 }
 
@@ -219,6 +218,7 @@ a {
     padding: 10px;
     width: 100%;
     background: #0d6efd;
+    border-radius: 30px;
 }
 
 .titulo-seccion-secundaria {
@@ -239,6 +239,15 @@ a {
     background: #0d6efd;
 }
 
+.contenido-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+}
+
 .error {
     color: red;
     font-size: 15px;
@@ -254,6 +263,12 @@ a {
     color: black;
     font-size: 15px;
     font-weight: bold;
+}
+
+.especialidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-body {

@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="/html/index.html">Inicio</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,7 +52,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+              <a class="nav-link active" aria-current="page" href="/html/reclamos.html">Reclamos</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -64,106 +64,97 @@
         </div>
       </div>
     </nav>
-      <!-- Formulario para modificar Perfil de Usuario -->
-    <div class="row">
-        <div class="col-md-12 contenedor-form">
-          <form id="formulario" class="formulario-reg ">
+    <!-- Contenido Formulario -->
+    <div class="container contenedor-form">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-6">
+          <form id="formulario">
               <!-- Titulo de Formulario -->
-              <legend class="titulo-reg text-center mb-2">Formulario de Registro</legend>
+              <legend class="titulo-reg text-center mb-2">Modificar Perfil</legend>
               <div class="row g-3 mb-3">
-              <!-- Input Nombres -->
-              <div class="col">
-                  <div id="formFloating" class="form-floating">
-                  <input id="nombres" class="form-control" onblur="valNombres()" type="text"  placeholder="Nombres" aria-label="First name">
-                  <label for="floatingInput">Nombres</label>
+                <!-- Input Nombres -->
+                <div class="col">
+                  <label class="col-sm-2 col-form-label">Nombres:</label>
+                  <div class="col-sm-10">
+                    <input id="nombres" type="text" class="form-control">
                   </div>
-                  <!-- Mensaje de Error -->
-                  <div id="nombreInvalido" class="invalid-feedback"></div>
-              </div>
+                </div>
               <!-- Apellidos -->
-              <div class="col">
-                  <div id="formFloating2" class="form-floating">
-                  <input id="apellidos" class="form-control" onblur="valApellidos()" type="text" placeholder="Apellidos" aria-label="Last name">
-                  <label for="floatingInput">Apellidos</label>
+                <div class="col">
+                  <label class="col-sm-2 col-form-label">Apellidos:</label>
+                  <div class="col-sm-10">
+                    <input id="apellidos" type="text" class="form-control">
                   </div>
-                  <!-- Mensaje de Error -->
-                  <div id="apellidoInv" class="invalid-feedback"></div>
+                </div>
               </div>
-              </div>
-              <div class="row g-3 mb-3">
               <!-- Input Correo Electrónico -->
-              <div class="col">
-                  <div id="formFloating3" class="form-floating">
-                  <input id="email" onblur="valEmail()" type="email" class="form-control" placeholder="name@example.com" required>
-                  <label for="floatingInput" >Correo Electrónico</label>
+              <div class="row g-3 mb-3">
+                <div class="col">
+                  <label class="col-sm-2 col-form-label">Apellidos:</label>
+                  <div class="col-sm-10">
+                    <input id="apellidos" type="text" class="form-control">
                   </div>
-                  <div id="emailInv" class="invalid-feedback"></div>
-              </div>
-              <!-- Input nombre de usuario -->
-              <div class="col">
-                  <div id="formFloating4" class="form-floating">
-                      <input id="nombreUsuario" onblur="valUsername()" class="form-control" type="text" placeholder="Nombre de Usuario" required>
-                      <label for="floatingInputGroup2">Nombre de Usuario</label>
+                </div>
+                <!-- Input nombre de usuario -->
+                <div class="col">
+                  <label class="col-sm-2 col-form-label">Apellidos:</label>
+                  <div class="col-sm-10">
+                    <input id="apellidos" type="text" class="form-control">
                   </div>
-                  <div id="usuarioInv" class="invalid-feedback"></div>
+                </div>
               </div>
-              </div>
-              <!-- Input Contraseña -->
+              <!-- Input Contraseña 1 -->
               <div class="row g-3 mb-3">
               <div class="col">
-                  <div id="formFloating5" class="form-floating">
-                  <input id="contraseña" class="form-control" onblur="valPass()" type="password" placeholder="Contraseña" required>
-                  <label for="floatingPassword">Contraseña</label>
-                  </div>
-                  <div id="passInvalid" class="invalid-feedback"></div>
+                <label class="col-sm-2 col-form-label">Apellidos:</label>
+                <div class="col-sm-10">
+                  <input id="apellidos" type="text" class="form-control">
+                </div>
               </div>
-              <!-- Input Repetir Contraseña -->
+              <!-- Input Contraseña 2 -->
               <div class="col">
-                  <div id="formFloating6" class="form-floating">
-                  <input id="repContraseña" onblur="valRepPass()" class="form-control" type="password" placeholder="Contraseña" required>
-                  <label for="floatingPassword">Repetir Contraseña</label>
-                  </div>
-                  <div id="repPassInvalid" class="invalid-feedback"></div>
+                <label class="col-sm-2 col-form-label">Apellidos:</label>
+                <div class="col-sm-10">
+                  <input id="apellidos" type="text" class="form-control">
+                </div>
+                  <div id="passInvalid2" class="invalid-feedback"></div>
+                  <div class="error"></div>
               </div>
               </div>
-              <div class="row g-3 mb-3">
-              <div class="col">
+              <div class="row g-3 mb-4">
+                <div class="col">
                   <!-- Input Dirección Domicilio -->
-                  <div class="form-floating">
-                  <input type="text" class="form-control" id="floatingInput" placeholder="Direccion">
-                  <label for="floatingInput">Dirección de Despacho</label>
+                  <label class="col-sm-2 col-form-label">Apellidos:</label>
+                  <div class="col-sm-10">
+                    <input id="apellidos" type="text" class="form-control">
                   </div>
-                  <div id="InfoDireccion" class="form-text">* Campo opcional</div>
-              </div>
-              <div class="col">
+                    <div id="errorDireccion" class="invalid-feedback"></div>
+                    <div class="error"></div>
+                </div>
+                <div class="col">
                   <!-- Fecha de Nacimiento -->
-                  <div id="formFloating7" class="form-floating">
-                  <input id="fechaNacimiento" onblur="valFecha()" class="form-control" type="date" placeholder="dd-mm-yyyy" min="1970-01-01" max="2023-03-31" required>
-                  <label for="floatingInput">Fecha de Nacimiento</label>
-                  <div id="fechaInv" class="invalid-feedback"></div>
+                  <label class="col-sm-2 col-form-label">Apellidos:</label>
+                  <div class="col-sm-10">
+                    <input id="apellidos" type="text" class="form-control">
                   </div>
+                  <div id="fechaInvalida" class="invalid-feedback"></div>
+                  <div class="error"></div>
+                </div>
               </div>
+              <!-- Boton Actualizar -->  
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-outline-primary" type="button">Actualizar</button>
               </div>
-              <!-- Boton Confirmar -->
-              <div class="contenedor-boton">
-              <a id="btn-enviar" type="submit" class="btn btn-primary link">Enviar</a>
-              </div>
-              <div onclick="limpiarFormulario()" class="contenedor-boton" type="reset">
-              <a class="btn btn-primary link">Limpiar</a>
-              </div>
+                    
           </form>
         </div>
+        <div class="col"></div>
       </div>
+    </div>
+    
 
-
-
-
-
-
-
-
-    <script src="/js/index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <script src="/main.js/valid.js"></script>
 </body>
 </html>
