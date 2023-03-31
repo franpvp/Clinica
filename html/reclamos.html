@@ -80,46 +80,52 @@
             <!-- Input Nombres -->
               <div class="row mb-3">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Nombres:</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="nombres">
+                <div id="div1" class="col-sm-10">
+                <input type="text" onblur="valNombre()" class="form-control" id="nombres">
                 </div>
+                <!--Mensaje de Error-->
                 <div id="nombreInvalido" class="invalid-feedback"></div>
+                <div class="error"></div>
               </div>
               <!-- Apellidos -->
               <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Apellidos:</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="apellidos">
+                <div id="div2" class="col-sm-10">
+                <input type="text" onblur="valApellido()" class="form-control" id="apellidos">
                 </div>
                 <!-- Mensaje de Error -->
                 <div id="apellidoInv" class="invalid-feedback"></div>
+                <div class="error"></div>
               </div>
               <!-- Rut -->
               <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Rut:</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="rut">
+                <div id="div3" class="col-sm-10">
+                <input type="text" onblur="valRut()" class="form-control" id="rut">
                 </div>
                 <!-- Mensaje de Error -->
                 <div id="rutInv" class="invalid-feedback"></div>
+                <div class="error"></div>
               </div>
               <!-- Celular -->
               <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Celular:</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="celular">
+                <div id="div4" class="col-sm-10">
+                <input type="text" onblur="valCelu()" class="form-control" id="celular">
                 </div>
                 <!-- Mensaje de Error -->
-                <div id="rutInv" class="invalid-feedback"></div>
+                <div id="celularInv" class="invalid-feedback"></div>
+                <div class="error"></div>
               </div>
               <!-- Dirección -->
               <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Dirección:</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="direccion">
+                <div id="div5" class="col-sm-10">
+                <input type="text" onblur="valDireccion()" class="form-control" id="direccion">
                 </div>
                 <!-- Mensaje de Error -->
                 <div id="direccionInv" class="invalid-feedback"></div>
+                <div class="error"></div>
               </div>
               <!-- Tipo Reclamo -->
               <div class="row mb-3">
@@ -138,6 +144,12 @@
                 <label class="col-sm-2 col-form-label">Comentarios: </label>
                 <div class="col-sm-10">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+              <!--Mensaje de Error para el boton-->
+              <div class="container text-center">
+                <div id="boton"class="row" class="invalid-feedback">
+                <div class="error" class="column"></div>
                 </div>
               </div>
               <!-- Boton Confirmar -->
@@ -160,7 +172,7 @@
       
 
 
-      <script src="/main.js/valid.js"></script>
+      <script src="/main.js/validReclamos.js"></script>
     
 </body>
 </html>
