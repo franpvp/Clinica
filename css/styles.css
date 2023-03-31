@@ -238,7 +238,6 @@ a {
     font-weight: bold;
     margin-bottom: 20px;
     align-items: center;
-    justify-content: center;
 }
 
 .contenido-footer {
@@ -277,8 +276,14 @@ a {
     background: #0d6efd;
 }
 
+.card:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
+    
+}
+
 .card-img-top {
-    padding: 5px;
+    padding: 6px;
 }
 
 .card-text {
@@ -316,8 +321,3 @@ i {
     background-size: cover;
 }
 
-.center-iconos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
