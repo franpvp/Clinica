@@ -272,30 +272,33 @@ let nombre = id("nombres"),
     password2 = id("contraseña2"),
     adress = id("direccion"),
     date = id("fechaNacimiento"),
+    boton = id("boton"),
     form = id("formulario"),
     errorMsg = classes("error");
 
 form.addEventListener("click", (e) => {
     e.preventDefault();
     
-    control(nombre, 0, "El nombre no puede estar en blanco");
-    control(apellido, 1, "El apellido no puede estar en blanco");
-    control(correo, 2, "El correo no puede estar en blanco");
-    control(user, 3, "El usuario no puede estar en blanco");
-    control(passWord1, 4, "La contraseña no puede estar vacía");
-    control(passWord2, 5, "La contraseña no puede estar vacía");
-    control(adress, 6, "La direccion no puede estar vacía");
-    control(date, 7, "La fecha de nacimiento no puede estar vacía");
+    control(nombre, 0, " ");
+    control(apellido, 1, " ");
+    control(correo, 2, " ");
+    control(user, 3, " ");
+    control(passWord1, 4, " ");
+    control(passWord2, 5, " ");
+    control(adress, 6, " ");
+    control(date, 7, " ");
     
 });
 
+const errorBoton = document.querySelector("#boton");
 
 let control = (id, serie, msg) => {
     if(id.value.trim() === ""){
         errorMsg[serie].innerHTML = msg;
+        errorMsg[8].innerHTML = "Todos los campos tienen que ser llenados";
     } 
     else {
         errorMsg[serie].innerHTML = "";
+        errorMsg[8].innerHTML = " ";
     }
 }
-
