@@ -99,12 +99,11 @@
 
 .logo{
     display: flex;
-    background-image: url(/img/Fondos/fondo-clinica.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100px;
-    height: 60px;
-    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px !important;
+    color: #0d6efd !important;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .texto-logo {
@@ -117,8 +116,6 @@
     opacity: 0.5;
     color: white;
 }
-    
-
 
 a {
     text-decoration: none !important;
@@ -319,5 +316,12 @@ i {
     background: url(/img/Fondos/twitter-tweet-social-logo.svg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.nombre-clinica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
 }
 
