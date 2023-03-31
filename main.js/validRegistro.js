@@ -1,4 +1,4 @@
-/* Validaciones de los campos.*/
+/* Validaciones de los campos en Registro.*/
 
 /* Input nombre:*/
 
@@ -209,7 +209,6 @@ const valDireccion = () => {
     let dirRegex = /^[a-zA-ZÀ-ÿ]+\s[0-9]{1,4}|\s[a-zAÀ-ÿ-Z0-9]+|\s[a-zAÀ-ÿ-Z0-9]+$/;
 
     if(textoDireccion === "" || textoDireccion === null){
-        console.log("Debe ser llenada");
         errorDireccion.innerHTML = "La direccion debe ser llenada"
         divForm7.classList.add("is-invalid");
         direccion.classList.add("is-invalid");
