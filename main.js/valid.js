@@ -298,3 +298,4 @@ let control = (id, serie, msg) => {
         errorMsg[serie].innerHTML = "";
     }
 }
+
