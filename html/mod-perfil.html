@@ -74,81 +74,42 @@
           <form id="formulario">
               <!-- Titulo de Formulario -->
               <legend class="titulo-reg text-center mb-2">Modificar Perfil</legend>
-              <div class="row g-3 mb-3">
-                <!-- Input Nombres -->
-                <div class="col">
-                  <label class="col-sm-2 col-form-label">Nombres:</label>
+              <div class="mb-3 row">
+                <div class="col"><label for="staticEmail" class="col-form-label">Nombres: </label>
                   <div class="col-sm-10">
-                    <input id="nombres" type="text" class="form-control">
-                  </div>
-                </div>
-              <!-- Apellidos -->
+                    <input type="text" readonly class="form-control-plaintext texto" value="Marco Juan">
+                  </div></div>
                 <div class="col">
-                  <label class="col-sm-2 col-form-label">Apellidos:</label>
-                  <div class="col-sm-10">
-                    <input id="apellidos" type="text" class="form-control">
-                  </div>
-                </div>
-              </div>
-              <!-- Input Correo Electrónico -->
-              <div class="row g-3 mb-3">
-                <div class="col">
-                  <label class="col-sm-2 col-form-label">Apellidos:</label>
-                  <div class="col-sm-10">
-                    <input id="apellidos" type="text" class="form-control">
-                  </div>
-                </div>
-                <!-- Input nombre de usuario -->
-                <div class="col">
-                  <label class="col-sm-2 col-form-label">Apellidos:</label>
-                  <div class="col-sm-10">
-                    <input id="apellidos" type="text" class="form-control">
-                  </div>
-                </div>
-              </div>
-              <!-- Input Contraseña 1 -->
-              <div class="row g-3 mb-3">
-              <div class="col">
-                <label class="col-sm-2 col-form-label">Apellidos:</label>
+                  <label for="staticEmail" class="col-form-label">Apellidos:</label>
                 <div class="col-sm-10">
-                  <input id="apellidos" type="text" class="form-control">
+                  <input type="text" readonly class="form-control-plaintext texto" id="staticEmail" value="Bustos Blas">
+                </div>
                 </div>
               </div>
-              <!-- Input Contraseña 2 -->
-              <div class="col">
-                <label class="col-sm-2 col-form-label">Apellidos:</label>
+              <div class="mb-3 row">
+                <div class="col">
+                  <label for="staticEmail" class="col-form-label">Correo: </label>
+                  <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext texto" id="staticEmail" value="email@gmail.com">
+                  </div>
+                </div>
+                <div class="col">
+                  <label for="staticEmail" class="col-form-label">Nombre de Usuario: </label>
+                  <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext texto" id="staticEmail" value="UserName">
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-form-label">Dirección: </label>
                 <div class="col-sm-10">
-                  <input id="apellidos" type="text" class="form-control">
-                </div>
-                  <div id="passInvalid2" class="invalid-feedback"></div>
-                  <div class="error"></div>
-              </div>
-              </div>
-              <div class="row g-3 mb-4">
-                <div class="col">
-                  <!-- Input Dirección Domicilio -->
-                  <label class="col-sm-2 col-form-label">Apellidos:</label>
-                  <div class="col-sm-10">
-                    <input id="apellidos" type="text" class="form-control">
-                  </div>
-                    <div id="errorDireccion" class="invalid-feedback"></div>
-                    <div class="error"></div>
-                </div>
-                <div class="col">
-                  <!-- Fecha de Nacimiento -->
-                  <label class="col-sm-2 col-form-label">Apellidos:</label>
-                  <div class="col-sm-10">
-                    <input id="apellidos" type="text" class="form-control">
-                  </div>
-                  <div id="fechaInvalida" class="invalid-feedback"></div>
-                  <div class="error"></div>
+                  <input type="text" readonly class="form-control-plaintext texto" id="staticEmail" value="DirecciónUsuario">
                 </div>
               </div>
               <!-- Boton Actualizar -->  
               <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-outline-primary" type="button">Actualizar</button>
+                <button class="btn btn-outline-primary" type="button">Modificar</button>
               </div>
-                    
           </form>
         </div>
         <div class="col"></div>

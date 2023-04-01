@@ -325,3 +325,9 @@ i {
     float: right;
 }
 
+.texto {
+    margin-left: 20px;
+    font-size: 18px !important;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
